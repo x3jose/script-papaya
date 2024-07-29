@@ -106,8 +106,6 @@ Toggle.MouseButton1Click:connect(function()
 	end
 end) 
 
-local Workspace = game:GetService("Workspace")
-local script = [[
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
