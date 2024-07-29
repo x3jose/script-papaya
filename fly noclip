@@ -82,7 +82,6 @@ Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
 Status.TextWrapped = true
 Status.TextXAlignment = Enum.TextXAlignment.Left
 
-
 Toggle.MouseButton1Click:connect(function()
 	if Status.Text == "off" then
 		Clipon = true
@@ -107,6 +106,7 @@ Toggle.MouseButton1Click:connect(function()
 	end
 end) 
 
+local Workspace = game:GetService("Workspace")
 local script = [[
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
@@ -163,6 +163,3 @@ Frame.MouseButton1Click:Connect(ToggleFly)
 ]]
  
 return script
-      end
-    end
-end
